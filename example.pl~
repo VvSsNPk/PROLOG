@@ -1,0 +1,2 @@
+list_reverse([],[]).
+list_reverse([X|Y],Z) :- list_reverse(Y,Z1),append(Z1,[X],Z).

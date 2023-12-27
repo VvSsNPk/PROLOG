@@ -1,0 +1,5 @@
+insert_node(X,nil,tree(X,nil,nil)).
+insert_node(X,tree(Root,Left,Right),tree(Root,Left1,Right)) :- X @< Root, insert_node(X,Left,Left1).
+insert_node(X,tree(Root,Left,Right),tree(Root,Left,Right)) :- X @> Root, insert_node(X,Right,Right1).
+
+

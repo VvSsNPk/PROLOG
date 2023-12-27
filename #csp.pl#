@@ -1,0 +1,14 @@
+
+
+
+
+
+
+
+
+constraint_network(A,B,C,D) :-
+    member(A,[true,false])
+    member(B,[0,1,2,3])
+    member(C,[0,1,2,3])
+    member(D,[0,1,2,3,4,5,6]).
+    

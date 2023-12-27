@@ -1,0 +1,4 @@
+select(X,[],[]).
+select(X,[X|T],T).
+select(X,[H|T],L) :- dif(X,H),select(X,T,L).
+

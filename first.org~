@@ -1,0 +1,7 @@
+#+begin_src prolog
+  pravee(hello).
+  praveen(X).
+
+#+end_src
+
+#+RESULTS:

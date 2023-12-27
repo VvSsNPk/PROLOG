@@ -1,0 +1,5 @@
+lenghtof([],0).
+lenghtof([X|T],Y) :- lenghtof(T,Z), Y is Z +1.
+
+first_halt(_,0,[]).
+first_halt([X|Y],N,[X|Z]) :- first_halt(Y,M,Z),lenghtof([X|Y],N),M is (N//2)-1. 

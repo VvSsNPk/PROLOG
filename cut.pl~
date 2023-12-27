@@ -1,0 +1,4 @@
+delete(X,[],[]).
+
+delete(X,[H|Y],[H|Z]) :- delete(X,Y,Z).
+delete(X,[X|Y],L) :-!,delete(X,Y,L).

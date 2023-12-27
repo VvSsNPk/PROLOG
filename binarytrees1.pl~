@@ -1,0 +1,31 @@
+term_tree(Tree,Root,Subtrees) :- Tree =.. [Root|Subtrees].
+term_root(Tree,Root) :- term_tree(Tree,Root,_).
+term_subtree(Tree,Subtree) :- term_tree(Tree,_,S),member(Subtree,S).
+
+
+term_arc(Tree,Arc):-
+    term_subtree(Tree,Subtree),
+    term_arc(Subtree,Arc).
+
+term_arc(Tree,[Root,Sr]) :-
+    term_root(Tree,Root),
+    term_subtree(Tree,Subtree),
+    term_root(Subtree,Sr).
+
+arc(n1,n2).
+arc(n1,n3).
+arc(n2,n4).
+arc(n2,n5).
+arc(n2,n6).
+arc(n5,n7).
+arc(n3,n8).
+arc(n3,n9).
+arc(n9,n10).
+
+path([Node1,Node2]) :-
+    arc(Node1,Node2).
+path([Node1,Node2|Nodes]):-
+    arc(Node1,Node2),
+    path([Node2|Nodes]).
+
+n1(n2(n3),n4(n6)).
