@@ -1,0 +1,29 @@
+zip([],[],[]).
+zip([],[X],[[X]]).
+zip([],[X|Y],[[X]|L]) :- zip([],Y,L).
+zip([X|Y],[],[[X]|L]) :- zip(Y,[],L).
+zip([X|Y],[M|N],[[X,M]|L]) :- zip(Y,N,L).
+
+nat(o).
+nat(s(X)) :- nat(X).
+
+add(s(X),o,s(X)).
+add(X,s(Y),s(Z)) :- add(X,Y,Z).
+
+
+ufib(o,o).
+ufib(s(o),s(o)).
+ufib(s(s(X)),L) :-nat(X),ufib(s(X),M),ufib(X,N),add(M,N,L).
+
+even(o).
+odd(s(o)).
+even(s(X)) :- odd(X),!.
+odd(s(X)) :- even(X),!.
+
+
+leq(o,o).
+leq(o,s(X)).
+leq(s(X),s(Y)) :- leq(X,Y).
+
+append_dl(X-Y,Y-Z,X-Z).
+

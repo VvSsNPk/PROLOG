@@ -1,0 +1,10 @@
+?- zip([1,2,3],[2,5,6],L).
+L = [[1, 2], [2, 5], [3, 6]] ;
+false.
+
+?- 
+
+
+Sweep top-level thread exited
+
+Process sweeprolog-top-level killed

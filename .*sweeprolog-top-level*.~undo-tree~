@@ -1,0 +1,13 @@
+(undo-tree-save-format-version . 1)
+"08a604c68821be3bd5a9ab6f089fbabedf39c576"
+[nil nil nil nil (26054 4695 193125 531000) 0 nil]
+([nil nil ((nil font-lock-face nil 1 . 4) (1 . 4) (t . 0)) nil (26054 4695 193124 64000) 0 nil])
+([nil nil ((8 . 10) (7 . 9) (4 . 4) (4 . 7)) nil (26054 4695 193122 248000) 0 nil])
+([nil nil ((13 . 13) (13 . 14) (12 . 12) (12 . 13) (9 . 9) (9 . 12)) nil (26054 4695 193120 362000) 0 nil])
+([nil nil ((21 . 21) (21 . 22) (20 . 20) (20 . 21) (19 . 19) (19 . 20) (18 . 18) (18 . 19) (17 . 17) (17 . 18) (16 . 16) (16 . 18) (15 . 15) (15 . 16)) nil (26054 4695 193118 58000) 0 nil])
+([nil nil ((23 . 23) (23 . 24)) nil (26054 4695 193115 683000) 0 nil])
+([nil nil ((24 . 24) (24 . 25)) nil (26054 4695 193114 286000) 0 nil])
+([nil nil ((26 . 27)) nil (26054 4695 193112 819000) 0 nil])
+([nil nil ((nil font-lock-face nil 28 . 57) (4 . 57) (#("zip([1,2,3],[2,5,6],L)." 0 3 (font-lock-face (sweeprolog-global sweeprolog-body) fontified t) 3 4 (font-lock-face (sweeprolog-body) fontified t) 4 5 (font-lock-face (sweeprolog-body) fontified t) 5 6 (font-lock-face (sweeprolog-int sweeprolog-body) fontified t) 6 7 (font-lock-face (sweeprolog-body) fontified t) 7 8 (font-lock-face (sweeprolog-int sweeprolog-body) fontified t) 8 9 (font-lock-face (sweeprolog-body) fontified t) 9 10 (font-lock-face (sweeprolog-int sweeprolog-body) fontified t) 10 11 (font-lock-face (sweeprolog-body) fontified t) 11 12 (font-lock-face (sweeprolog-body) fontified t) 12 13 (font-lock-face (sweeprolog-body) fontified t) 13 14 (font-lock-face (sweeprolog-int sweeprolog-body) fontified t) 14 15 (font-lock-face (sweeprolog-body) fontified t) 15 16 (font-lock-face (sweeprolog-int sweeprolog-body) fontified t) 16 17 (font-lock-face (sweeprolog-body) fontified t) 17 18 (font-lock-face (sweeprolog-int sweeprolog-body) fontified t) 18 19 (font-lock-face (sweeprolog-body) fontified t) 19 20 (font-lock-face (sweeprolog-body) fontified t) 20 21 (font-lock-face (sweeprolog-singleton sweeprolog-body) fontified t) 21 22 (font-lock-face (sweeprolog-body) fontified t) 22 23 (font-lock-face (sweeprolog-body) fontified t)) . -4) (undo-tree-id2 . 2) 27) nil (26054 4695 193110 933000) 0 nil])
+([nil current ((nil font-lock-face nil 67 . 70) (#("[0m" 0 4 (fontified nil field output)) . -65) (undo-tree-id0 . -4) (#("[1;31m" 0 7 (fontified nil field output)) . -59) (undo-tree-id1 . -7) (#("" 0 1 (fontified nil field output)) . 77) (#("" 0 1 (fontified nil field output)) . 77) (#("" 0 1 (fontified nil field output)) . 76) (#("" 0 1 (fontified nil field output)) . 76) (57 . 85) (#(";" 0 1 (font-lock-face (sweeprolog-undefined sweeprolog-body) fontified nil)) . -57) (57 . 58)) nil (26054 4695 193106 533000) 0 nil])
+nil

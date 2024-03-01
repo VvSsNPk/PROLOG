@@ -19,7 +19,7 @@ merge_sort([],[]).
 merge_sort([X],[X]).
 merge_sort(List,Ans):-
     lenghtof(List, L),
-    L > 1,
+    L >= 1,
     split_list(List, Left, Right),
     merge_sort(Left,SortedLeft),
     merge_sort(Right,SortedRight),
